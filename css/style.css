@@ -14,12 +14,13 @@
 	border-color: #FBCF8C;
 }
 
-/* Each div of class .tile contains a piece */
+/* Each div of class .tile contains a piece. Background is black by default. */
 .tile {
 	height: 100px;
 	width: 100px;
 	display: inline-block;
 	vertical-align: top;
+	background-color: #000000;
 }
 
 /* Pieces have no default background color and white defualt border color */
@@ -39,9 +40,25 @@
 	background-color: #FF0000;
 }
 
-/* For black tiles and black pieces */
+/* For black pieces */
 .black {
 	background-color: #000000;
+}
+
+/* For black kings */
+.black_king {
+	background-image: url('../images/white_crown_flip.png');
+	background-size: 75%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* For white kings */
+.white_king {
+	background-image: url('../images/white_crown.png');
+	background-size: 75%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* For white pieces. Border color changes to black */
@@ -62,8 +79,12 @@
 }
 
 /* Piece border remains yellow when deciding where to move piece */
-.pickPiece.piece {
+.pickPiece {
 	border-color: #FFCC00;
+}
+
+/* Pieces that have the option to jump multiple times look identical to a picked piece */
+.multiJump {
 }
 
 /* Dashed black background shows the final destination of a potential move */
