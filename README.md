@@ -5,8 +5,8 @@ Author: Jake Albert
 
 Acknowledgement: Crown clipart obtained through [Pixabay](https://pixabay.com/en/king-white-chess-figure-game-play-147056/).
 
-![Test Image](images/black_crown.png)
-
+<img src="images/screenshots/start_board.png" width="216" height="230">
+<img src="images/screenshots/move_selections.png" width="256" height="212">
 -------------------------------
 
 Usage:
