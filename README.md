@@ -7,6 +7,7 @@ Acknowledgement: Crown clipart obtained through [Pixabay](https://pixabay.com/en
 
 <img src="images/screenshots/start_board.png" width="216" height="230">
 <img src="images/screenshots/move_selections.png" width="256" height="212">
+
 -------------------------------
 
 Usage:
