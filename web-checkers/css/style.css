@@ -1,0 +1,100 @@
+/* Announces color to play. */
+.title {
+	max-width: 850px;
+	text-align: center;
+	font-size: 40px;
+	font-family: Arial;
+}
+
+/* Div containing all tiles and pieces. Maximum width is width of eight tiles */
+.checkerboard {
+	max-width: 800px;
+	border-style: solid;
+	border-width: 25px;
+	border-color: #FBCF8C;
+}
+
+/* Each div of class .tile contains a piece. Background is black by default. */
+.tile {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #000000;
+}
+
+/* Pieces have no default background color and white defualt border color */
+.piece {
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFFFFF;
+}
+
+/* For red tiles */
+.red {
+	background-color: #FF0000;
+}
+
+/* For black pieces */
+.black {
+	background-color: #000000;
+}
+
+/* For black kings */
+.black_king {
+	background-image: url('../images/white_crown_flip.png');
+	background-size: 75%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* For white kings */
+.white_king {
+	background-image: url('../images/white_crown.png');
+	background-size: 75%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* For white pieces. Border color changes to black */
+.white {
+	background-color: #FFFFFF;
+	border-color: #000000;
+}
+
+/* Pieces with red background and border represent empty tiles */
+.ghost {
+	background-color: #FF0000;
+	border-color: #FF0000;
+}
+
+/* Piece border turns yellow on hover when deciding which piece to select */ 
+.turnPiece:hover {
+	border-color: #FFCC00;
+}
+
+/* Piece border remains yellow when deciding where to move piece */
+.pickPiece {
+	border-color: #FFCC00;
+}
+
+/* Pieces that have the option to jump multiple times look identical to a picked piece */
+.multiJump {
+}
+
+/* Dashed black background shows the final destination of a potential move */
+.potentialMove {
+	border-color: #000000;
+	border-style: dashed;
+}
+
+/* Dashed black background shows the final destination of a potential jump */
+.potentialJump {
+	border-color: #000000;
+	border-style: dashed;
+}
