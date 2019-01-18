@@ -17,4 +17,4 @@ Usage:
 -------------------------------
 
 ## Movement selections
-<img src="images/screenshots/move_selections.png" width="512" height="425">
+<img src="images/screenshots/move_selections.png" width="479" height="479">
