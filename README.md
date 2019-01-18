@@ -5,7 +5,7 @@ Acknowledgement: Crown clipart obtained through [Pixabay](https://pixabay.com/en
 
 Usage:
   * Clone: `git clone https://github.com/jake-albert/web-checkers.git`
-  * Play: open **html/index.html** in any web browser, such as Chrome.
+  * Play: Open **html/index.html** in any web browser.
 
 -------------------------------
 
