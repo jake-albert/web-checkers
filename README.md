@@ -1,9 +1,7 @@
 # web-checkers
-Basic checkers game implemented in HTML, CSS, and JavaScript.
-
-Author: Jake Albert
-
-Acknowledgement: Crown clipart obtained through [Pixabay](https://pixabay.com/en/king-white-chess-figure-game-play-147056/).
+Author: Jake Albert  
+Basic checkers game implemented in HTML, CSS, and JavaScript.  
+Acknowledgement: Crown clipart obtained through [Pixabay](https://pixabay.com/en/king-white-chess-figure-game-play-147056/).  
 
 -------------------------------
 
